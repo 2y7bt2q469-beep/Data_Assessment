@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Assessment Qualification Tool</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Data Assessment Qualification</h1>
+            <p class="subtitle">Help us understand your data landscape to provide the best assessment approach</p>
+        </header>
+
+        <div class="questionnaire-container">
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+
+            <div class="question-container" id="questionContainer">
+                <div class="question" id="currentQuestion">
+                    <h2 id="questionTitle"></h2>
+                    <div id="questionOptions"></div>
+                    <div class="navigation">
+                        <button id="backButton" class="btn btn-secondary" style="display: none;">Back</button>
+                        <button id="nextButton" class="btn btn-primary" disabled>Next</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="result-container" id="resultContainer" style="display: none;">
+                <div class="result-card">
+                    <h2 id="resultTitle"></h2>
+                    <div id="resultContent"></div>
+                    <button id="restartButton" class="btn btn-primary">Start Over</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
