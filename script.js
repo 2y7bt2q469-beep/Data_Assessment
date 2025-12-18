@@ -159,13 +159,13 @@ class DataAssessmentQuestionnaire {
 
         this.results = {
             result_green: {
-                title: "GREEN PATH - Full Assessment Recommended",
+                title: "Full Assessment Recommended",
                 content: `
-                    <h3>Full data-first assessment feasible</h3>
+                    <h3>Comprehensive Data Assessment</h3>
                     <p><strong>Recommended Approach:</strong></p>
                     <ul>
                         <li>Lead with metadata + usage analysis</li>
-                        <li>Initialize Trovia with observed facts</li>
+                        <li>Initialize assessment with observed facts</li>
                         <li>Comprehensive data architecture review</li>
                         <li>Data quality and governance assessment</li>
                     </ul>
@@ -174,9 +174,9 @@ class DataAssessmentQuestionnaire {
                 className: "green-path"
             },
             result_yellow: {
-                title: "YELLOW PATH - Assessment Pending Approval",
+                title: "Assessment Pending Approval",
                 content: `
-                    <h3>Feasible pending approval</h3>
+                    <h3>Data Assessment with Approval Requirements</h3>
                     <p><strong>Recommended Approach:</strong></p>
                     <ul>
                         <li>Provide security documentation for minimal export requirements</li>
@@ -188,23 +188,23 @@ class DataAssessmentQuestionnaire {
                 className: "yellow-path"
             },
             result_limited: {
-                title: "LIMITED PATH - Architecture-Focused Assessment",
+                title: "Architecture-Focused Assessment",
                 content: `
-                    <h3>Assessment possible with reduced confidence</h3>
+                    <h3>Strategic Data Direction Assessment</h3>
                     <p><strong>Recommended Approach:</strong></p>
                     <ul>
                         <li>Focus on architecture patterns and risk heuristics</li>
-                        <li>Position as "Data Direction Snapshot"</li>
+                        <li>Strategic "Data Direction Snapshot"</li>
                         <li>Interview-based assessment methodology</li>
                     </ul>
-                    <p><strong>Next Steps:</strong> We can proceed with a lighter assessment focused on strategic direction and risk identification.</p>
+                    <p><strong>Next Steps:</strong> We can proceed with an assessment focused on strategic direction and risk identification.</p>
                 `,
                 className: "limited-path"
             },
             result_saas_green: {
-                title: "SAAS GREEN/YELLOW PATH - Fragmentation Assessment",
+                title: "SaaS Environment Assessment",
                 content: `
-                    <h3>SaaS Environment Assessment</h3>
+                    <h3>Data Fragmentation Assessment</h3>
                     <p><strong>Recommended Approach:</strong></p>
                     <ul>
                         <li>Focus on data fragmentation and activation challenges</li>
@@ -216,7 +216,7 @@ class DataAssessmentQuestionnaire {
                 className: "yellow-path"
             },
             result_saas_limited: {
-                title: "SAAS LIMITED PATH - Decision Workflow Assessment",
+                title: "Decision Workflow Assessment",
                 content: `
                     <h3>Reporting and Decision Workflow Assessment</h3>
                     <p><strong>Recommended Approach:</strong></p>
@@ -230,7 +230,7 @@ class DataAssessmentQuestionnaire {
                 className: "limited-path"
             },
             result_spreadsheets: {
-                title: "SPREADSHEET PATH - Centralization Planning",
+                title: "Centralization Planning Assessment",
                 content: `
                     <h3>Spreadsheet Risk Mitigation</h3>
                     <p><strong>Recommended Approach:</strong></p>
@@ -244,7 +244,7 @@ class DataAssessmentQuestionnaire {
                 className: "yellow-path"
             },
             result_routing: {
-                title: "ROUTING PATH - Initial Consultation",
+                title: "Initial Consultation",
                 content: `
                     <h3>Discovery Session Recommended</h3>
                     <p><strong>Recommended Approach:</strong></p>
